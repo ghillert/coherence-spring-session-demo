@@ -1,0 +1,10 @@
+spring:
+  session:
+    timeout: 600s
+coherence:
+  spring:
+    session:
+      use-entry-processor: false
+logging:
+  level:
+    com.oracle.coherence.spring.session: debug
